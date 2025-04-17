@@ -7,7 +7,7 @@ void parse (char html [100])
     printf("\n");
     char cpy[100], mod[100];
 
-    int index, count;
+    int count;
 
     count = 0;
     while (html[count] != '>')
