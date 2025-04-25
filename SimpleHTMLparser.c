@@ -5,10 +5,10 @@ void parse (char html [100]);
 
 int main()
 {   
-    char htArr1[] = "<p> This a hypertext markup language file code 1 (p) </p>";
-    char htArr2[] = "<div> This a hypertext markup language file code 2 (div) </div>";
-    char htArr3[] = "<li> This a hypertext markup language file code 3 (li) </li>";
-    char htArr4[] = "<span> This a hypertext markup language file code 4 (span) </span>";
+    char htArr1[] = "<p> This a hypertext markup language file code 1 (p tag) </p>";
+    char htArr2[] = "<div> This a hypertext markup language file code 2 (div tag) </div>";
+    char htArr3[] = "<li> This a hypertext markup language file code 3 (li tag) </li>";
+    char htArr4[] = "<span> This a hypertext markup language file code 4 (span tag) </span>";
     
     printf("Some example html code showing my simple html code parser\n");
     parse (htArr1); 
